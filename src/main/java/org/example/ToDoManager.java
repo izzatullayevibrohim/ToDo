@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class ToDoManager {
-    private static List<Task> tasks = new ArrayList<>();
+    private static final List<Task> tasks = new ArrayList<>();
 
     public static void addTask(int taskId, String task) {
         tasks.add(new Task(taskId, task));
