@@ -3,7 +3,7 @@ package org.example;
 import java.util.ArrayList;
 import java.util.List;
 
-public class ToDoManager<T> {
+public class ToDoManager {
     private static List<Task> tasks = new ArrayList<>();
 
     public static void addTask(int taskId, String task) {
